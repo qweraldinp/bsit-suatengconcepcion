@@ -1,0 +1,109 @@
+<html>
+  <head>
+    <title>Kwoshey - CheckOut</title>
+
+    <link rel="stylesheet" type="text/css" href="Shop.css" />
+    <script
+      src="https://kit.fontawesome.com/44b192ce6f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="header2">
+      <div class="navbar">
+        <img src="img/logo1.png" class="logo" />
+        <ul>
+          <li><a href="Main.html">Home</a></li>
+          <li><a href="Shop.html">Shop</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+          <li>
+            <a href="Cart.html"><img src="img/cart1.png" /></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="title">
+      <h1>Checkout</h1>
+    </div>
+	
+	<div class="products-container-storage">
+	</div>
+	
+	<div class="cart-total">
+        <strong class="cart-total-title">Total:</strong>
+        <span class="cart-total-price">₱0</span>
+      </div>
+	  <div class="contact-us">
+			<div class="container">
+				<form class="checkout" action="Success.html">
+					<div class="question">
+						<label for="fname">Full Name*</label>
+						<input type="text" id="fname" name="firstname" placeholder="Enter full name..">
+					</div>
+					
+					<div class="question"
+						<label for="email">Email*</label>
+						<input type="text" id="email" name="email" placeholder="Enter email address">
+					</div>
+					
+					<div class="question">
+						<label for="email">Phone*</label>
+						<input type="text" id="number" name="number" placeholder="Enter phone number">
+					</div>	
+					
+					<div class="question">
+						<label for="email">Address*</label>
+						<input type="text" id="number" name="number" placeholder="Enter personal/home address">
+					</div>
+					
+					<div class="question">
+						<label for="concern">Mode of Payment</label>
+						<select id="concern" name="concern">
+						  <option value="query">Select</option>
+						  <option value="suggestion">Gcash</option>
+						  <option value="productconcern">Bank Transfer</option>
+						  <option value="deliveryconcern">Cash on Delivery</option>
+						</select>
+					</div>
+					
+					<div class="row">
+						<div class="col">
+							Name on card<input type="text" class="form-control">
+						</div>
+
+						<div class="col">
+							Credit Card/Gcash Number<input type="text" class="form-control">
+						</div>
+					</div>
+					
+					<div class="proceed">
+						<input class="question" type="submit" value="Checkout">
+					</div>
+				</form>
+			</div>	
+		</div>
+	  <div class="footer">
+      <h4>About Us</h4>
+      <p>
+        We create and design yarn crafted items, provide tools to promote
+        crocheting, and inspire creativity.
+      </p>
+
+      <div class="icons">
+        <br />
+        <a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a
+        >&nbsp;&nbsp;&nbsp;
+        <a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a
+        >&nbsp;&nbsp;&nbsp;
+        <a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a
+        >&nbsp;&nbsp;&nbsp;
+      </div>
+      <br />
+      <p>Created by Concepcion and Suatengco for educational purposes.</p>
+    </div>
+  </body>
+  <script type="text/javascript" src="checkout.js"></script>
+</html>
